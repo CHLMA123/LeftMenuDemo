@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:LeftMenuDemo_Gesture"
+      name = "LeftMenuDemo_Gesture">
+      <Group
+         location = "group:QQ&#x4fa7;&#x6ed1;&#x83dc;&#x5355;Demo"
+         name = "QQ&#x4fa7;&#x6ed1;&#x83dc;&#x5355;Demo">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Category"
+            name = "Category">
+            <FileRef
+               location = "group:UIView+Extend.h">
+            </FileRef>
+            <FileRef
+               location = "group:UIView+Extend.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:HomeViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:HomeViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:LeftMenuView"
+            name = "LeftMenuView">
+            <FileRef
+               location = "group:LeftMenuTableView.h">
+            </FileRef>
+            <FileRef
+               location = "group:LeftMenuTableView.m">
+            </FileRef>
+            <FileRef
+               location = "group:LeftMenuView.h">
+            </FileRef>
+            <FileRef
+               location = "group:LeftMenuView.m">
+            </FileRef>
+            <FileRef
+               location = "group:MenuTableViewCell.h">
+            </FileRef>
+            <FileRef
+               location = "group:MenuTableViewCell.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MAMacro.h">
+         </FileRef>
+         <FileRef
+            location = "group:MAPrefixHeader.pch">
+         </FileRef>
+         <FileRef
+            location = "group:OtherViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:OtherViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:QQ____Demo.xcdatamodeld">
+         </FileRef>
+         <Group
+            location = "group:sidebar"
+            name = "sidebar">
+            <FileRef
+               location = "group:image1.png">
+            </FileRef>
+            <FileRef
+               location = "group:image2.png">
+            </FileRef>
+            <FileRef
+               location = "group:image3.png">
+            </FileRef>
+            <FileRef
+               location = "group:image4.png">
+            </FileRef>
+            <FileRef
+               location = "group:image5.png">
+            </FileRef>
+            <FileRef
+               location = "group:image6.png">
+            </FileRef>
+            <FileRef
+               location = "group:image7.png">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_add_nor@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_add_nor@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_add_press@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_add_press@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_topbg@2x.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:leftmenu_topbg@3x.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:sidebar_bg@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:user_photo_bg@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:user_photo_bg@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:user_picture@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:user_picture@3x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:topnav_menu_nor@2x.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:QQ&#x4fa7;&#x6ed1;&#x83dc;&#x5355;Demo.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:LeftMenuDemo_Touch"
+      name = "LeftMenuDemo_Touch">
+      <Group
+         location = "group:slideView"
+         name = "slideView">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:LeftView"
+            name = "LeftView">
+            <FileRef
+               location = "group:LeftView.h">
+            </FileRef>
+            <FileRef
+               location = "group:LeftView.m">
+            </FileRef>
+            <FileRef
+               location = "group:UITableView+touch.h">
+            </FileRef>
+            <FileRef
+               location = "group:UITableView+touch.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:MAMacro.h">
+         </FileRef>
+         <FileRef
+            location = "group:MAPrefixHeader.pch">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:slideView.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
