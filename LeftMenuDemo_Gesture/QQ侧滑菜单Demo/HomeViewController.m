@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "OtherViewController.h"
+#import "FSNavigationController.h"
 
 @interface HomeViewController ()<UITableViewDelegate, UITableViewDataSource, LeftMenuViewDelegate>
 
@@ -131,8 +132,24 @@
     
     NSLog(@"点击了 tableView的第 %ld 个cell", (long)indexPath.row);
     
+    [self presentOtherView];
+    
 }
 
+- (void)presentOtherView{
+
+    NSLog(@"inter >>> Prensent Action");
+    OtherViewController *thisController =[[OtherViewController alloc]init];
+    FSNavigationController *navigaionController = [[FSNavigationController alloc] initWithRootViewController:thisController];
+    thisController.navigationItem.leftBarButtonItem = [navigaionController backBarButtonItem];
+    [self presentViewController:navigaionController animated:YES completion:NULL];
+    
+}
+
+- (void)poptoView:(UIViewController *)sender{
+    
+    [sender.navigationController popViewControllerAnimated:YES];
+}
 /*
 #pragma mark - Navigation
 

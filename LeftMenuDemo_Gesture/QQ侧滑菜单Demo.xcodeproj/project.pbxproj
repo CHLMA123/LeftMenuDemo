@@ -25,6 +25,8 @@
 		36853DBD1D35D0B900173E30 /* QQ____Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36853DBB1D35D0B900173E30 /* QQ____Demo.xcdatamodeld */; };
 		36853DBF1D35D0B900173E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36853DBE1D35D0B900173E30 /* Assets.xcassets */; };
 		36853DC21D35D0B900173E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36853DC01D35D0B900173E30 /* LaunchScreen.storyboard */; };
+		36B7185B1D9E49C800EF7789 /* FSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B7185A1D9E49C800EF7789 /* FSNavigationController.m */; };
+		36B7185D1D9E4D8700EF7789 /* login_back_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B7185C1D9E4D8700EF7789 /* login_back_nor@3x.png */; };
 		36BD088D1D39CD500077321F /* leftmenu_add_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BD08661D39CD500077321F /* leftmenu_add_nor@2x.png */; };
 		36BD088E1D39CD500077321F /* leftmenu_add_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BD08671D39CD500077321F /* leftmenu_add_nor@3x.png */; };
 		36BD088F1D39CD500077321F /* leftmenu_add_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BD08681D39CD500077321F /* leftmenu_add_press@2x.png */; };
@@ -69,6 +71,9 @@
 		36853DBE1D35D0B900173E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36853DC11D35D0B900173E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36853DC31D35D0B900173E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36B718591D9E49C800EF7789 /* FSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNavigationController.h; sourceTree = "<group>"; };
+		36B7185A1D9E49C800EF7789 /* FSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNavigationController.m; sourceTree = "<group>"; };
+		36B7185C1D9E4D8700EF7789 /* login_back_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_back_nor@3x.png"; sourceTree = "<group>"; };
 		36BD08661D39CD500077321F /* leftmenu_add_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftmenu_add_nor@2x.png"; sourceTree = "<group>"; };
 		36BD08671D39CD500077321F /* leftmenu_add_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftmenu_add_nor@3x.png"; sourceTree = "<group>"; };
 		36BD08681D39CD500077321F /* leftmenu_add_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftmenu_add_press@2x.png"; sourceTree = "<group>"; };
@@ -137,6 +142,7 @@
 		36853DAE1D35D0B900173E30 /* QQ侧滑菜单Demo */ = {
 			isa = PBXGroup;
 			children = (
+				36B718581D9E496E00EF7789 /* Base */,
 				36030C951D376684006EF005 /* Category */,
 				36594CF01D38D98E00677E5E /* LeftMenuView */,
 				36853DB21D35D0B900173E30 /* AppDelegate.h */,
@@ -165,6 +171,16 @@
 				36853DB01D35D0B900173E30 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36B718581D9E496E00EF7789 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				36B7185C1D9E4D8700EF7789 /* login_back_nor@3x.png */,
+				36B718591D9E49C800EF7789 /* FSNavigationController.h */,
+				36B7185A1D9E49C800EF7789 /* FSNavigationController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		36BD08651D39CD500077321F /* sidebar */ = {
@@ -253,6 +269,7 @@
 				3613B8111D485A8C00B6DF9E /* image5.png in Resources */,
 				3613B80D1D485A8C00B6DF9E /* image1.png in Resources */,
 				36BD08901D39CD500077321F /* leftmenu_add_press@3x.png in Resources */,
+				36B7185D1D9E4D8700EF7789 /* login_back_nor@3x.png in Resources */,
 				36853DC21D35D0B900173E30 /* LaunchScreen.storyboard in Resources */,
 				36853DBF1D35D0B900173E30 /* Assets.xcassets in Resources */,
 				36BD08B11D39CD500077321F /* user_photo_bg@3x.png in Resources */,
@@ -287,6 +304,7 @@
 				36853DBD1D35D0B900173E30 /* QQ____Demo.xcdatamodeld in Sources */,
 				36030C911D373B2F006EF005 /* HomeViewController.m in Sources */,
 				36853DB11D35D0B900173E30 /* main.m in Sources */,
+				36B7185B1D9E49C800EF7789 /* FSNavigationController.m in Sources */,
 				36030C981D376684006EF005 /* UIView+Extend.m in Sources */,
 				3609B20D1D3C620E00EBD3C0 /* MenuTableViewCell.m in Sources */,
 				36594CEF1D38D08E00677E5E /* OtherViewController.m in Sources */,

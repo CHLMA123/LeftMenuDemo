@@ -27,7 +27,7 @@
 
 @implementation LeftMenuView
 
-NSInteger menuViewWith = 290;
+NSInteger menuViewWith = 260;
 //Objective-C中的单例
 static LeftMenuView *menuView = nil;
 + (instancetype)ShareManager{

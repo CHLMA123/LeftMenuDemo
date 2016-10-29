@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FSNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.home = [[HomeViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.home];
+    FSNavigationController *nav = [[FSNavigationController alloc] initWithRootViewController:self.home];
     self.window.rootViewController = nav;
     return YES;
 }
